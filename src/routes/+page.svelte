@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	let counter = 0;
+
+	function incrementCount() {
+		counter += 1;
+	}
+</script>
+
+<button on:click={incrementCount}>
+	Clicked {counter}
+	{counter === 1 ? 'time' : 'times'}
+</button>
