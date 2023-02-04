@@ -351,5 +351,5 @@ MigrationBackup/
 
 # Editor and other files
 .vscode
-.svelte-kit
+.svelte-kit/
 .eslintcache
