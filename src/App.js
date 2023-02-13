@@ -53,19 +53,21 @@ function App() {
   return (
     <>
       <div className="app">
-        <ShellBar
-          primary-title="Wishlist"
-          show-notifications
-          notifications-count="2"
-          ref={shellBar}
-        >
-          <ShellBarItem
-            icon="palette"
-            text="Theme"
-            ref={themeChangeItem}
-          ></ShellBarItem>
-          <Avatar slot="profile" size="XS" initials="JD"></Avatar>
-        </ShellBar>
+        <div>
+          <ShellBar
+            primary-title="Wishlist"
+            show-notifications
+            notifications-count="2"
+            ref={shellBar}
+          >
+            <ShellBarItem
+              icon="palette"
+              text="Theme"
+              ref={themeChangeItem}
+            ></ShellBarItem>
+            <Avatar slot="profile" size="XS" initials="JD"></Avatar>
+          </ShellBar>
+        </div>
 
         <TabContainer fixed collapsed>
           <Tab text="My Todos"></Tab>
@@ -108,7 +110,6 @@ function App() {
             ></Panel>
           </div>
         </section>
-        <Button design="Default">Default</Button>
       </div>
     </>
   );
