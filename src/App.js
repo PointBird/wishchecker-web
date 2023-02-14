@@ -70,7 +70,7 @@ function App() {
         </div>
 
         <TabContainer fixed collapsed>
-          <Tab text="My Todos"></Tab>
+          <Tab text="My Wishlist"></Tab>
         </TabContainer>
 
         <section className="app-content">
