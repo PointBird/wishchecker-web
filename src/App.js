@@ -25,7 +25,7 @@ function App() {
   const themeChangeItem = useRef(),
     addButton = useRef(),
     urlInput = useRef(),
-    todoDeadline = useRef(),
+    urlDeadline = useRef(),
     editDialog = useRef(),
     cancelBtn = useRef(),
     saveBtn = useRef(),
@@ -84,7 +84,7 @@ function App() {
             <DatePicker
               format-pattern="dd/MM/yyyy"
               className="add-todo-element-width"
-              ref={todoDeadline}
+              ref={urlDeadline}
               id="date-picker"
             ></DatePicker>
             <Button
