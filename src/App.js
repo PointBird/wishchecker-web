@@ -24,7 +24,7 @@ setTheme("sap_horizon");
 function App() {
   const themeChangeItem = useRef(),
     addButton = useRef(),
-    todoInput = useRef(),
+    urlInput = useRef(),
     todoDeadline = useRef(),
     editDialog = useRef(),
     cancelBtn = useRef(),
@@ -77,7 +77,7 @@ function App() {
           <div className="create-todo-wrapper">
             <Input
               placeholder="Type a URL..."
-              ref={todoInput}
+              ref={urlInput}
               className="add-todo-element-width"
               id="add-input"
             ></Input>
