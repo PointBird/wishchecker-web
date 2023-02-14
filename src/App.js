@@ -99,12 +99,12 @@ function App() {
 
           <div className="list-todos-wrapper">
             <Panel
-              header-text="Incompleted Tasks"
+              header-text="Unrealized Wishes"
               className="list-todos-panel"
             ></Panel>
 
             <Panel
-              header-text="Completed Tasks"
+              header-text="Released Wishes"
               className="list-todos-panel"
               id="completed-tasks"
             ></Panel>
