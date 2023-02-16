@@ -104,7 +104,7 @@ function App() {
             ></Panel>
 
             <Panel
-              header-text="Released Wishes"
+              header-text="Realized Wishes"
               className="list-todos-panel"
               id="completed-tasks"
             ></Panel>
